@@ -9,35 +9,53 @@
 </head>
 <body>
 <div class="container">
-     <div class="jumbotron">
+    <div class="jumbotron">
         <h1 id="item" class="text-center">Are you ready?</h1>
         <p class="text-center">
             <a id="next" class="btn btn-lg btn-block btn-success" href="#" role="button">next</a></p>
-      </div>
+    </div>
+    <br/>
+    <br/>
+
     <footer>
-        aaa | bbb | ccc
+        <a id="qamode" href="#" class="btn btn-group-sm">wonna qa</a>
+        | <a id="devmode" href="#" class="btn btn-default">wanna dev</a>
     </footer>
 </div>
 <script src="jquery.js"></script>
 <script src="dev.js">
 </script>
 <script>
-function getRandomInRange(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
-}
+    function getRandomInRange(min, max) {
+        return Math.floor(Math.random() * (max - min) + min);
+    }
 
-function getRandomItem(items) {
-    return items[getRandomInRange(0, items.length)]
-}
+    function getRandomItem(items) {
+        return items[getRandomInRange(0, items.length)]
+    }
 
     $(function () {
-        var items=base['dev'];
+        var items = base['dev'];
         console.log(items[items.length - 1]);
-       $("#next").click(function () {
-           var index=getRandomInRange(0,items.length);
-           //alert(items[index]);
-           $("#item").text(items[index])
-       })
+        $("#next").click(function () {
+            var index = getRandomInRange(0, items.length);
+            //alert(items[index]);
+            $("#item").text(items[index])
+        });
+
+        $("#qamode").click(function () {
+            items = base['qa'];
+            $("#item").text("Are you ready?")
+            console.log("switching to qa");
+        })
+
+        $("#devmode").click(function () {
+            items = base['dev'];
+            $("#item").text("Are you ready?")
+            console.log("switching to dev");
+        })
+
+
     });
 </script>
 
