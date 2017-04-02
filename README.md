@@ -1,3 +1,67 @@
+# Developer terms
+
+non-functional requirements
+prototyping
+XML
+unicode
+database
+nosql
+scrum
+user story
+release
+object
+class
+coding style
+repository
+graph
+sql
+nosql
+scrapping
+interface
+object-oriented programing
+user
+keyboard
+compiler
+byte-code
+application
+web
+browser
+navigation
+console
+operation system
+pattern
+authorization
+profile
+plugin
+extension
+abstract class
+IDE
+syntax
+Test-Driven Development
+polymorphism
+Singleton
+Algorithms
+recursion
+hash
+list
+string
+array
+queue
+stack
+heap
+json
+code coverage
+docker
+heroku
+hosting
+support service
+application life cycle
+version control system
+release
+
+
+# QA testing
+
 black box testing
 white box testing
 GUI Testing
