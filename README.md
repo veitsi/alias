@@ -11,6 +11,8 @@ user story
 release
 object
 class
+package
+module
 coding style
 repository
 graph
@@ -58,6 +60,26 @@ support service
 application life cycle
 version control system
 release
+key-value store
+backend
+frontend
+framework
+Micro-framework
+dictionary
+polyfill
+database migration
+scalability
+source code
+rest
+http
+template
+debugger
+router
+model
+view
+controller
+service
+
 
 
 # QA testing
